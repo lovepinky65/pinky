@@ -4,6 +4,7 @@ body{
   @include bgfixed;
   @include breakpoint($max-md){
     background-position: center 60px; 
+    background: url(../images/layout/body-bg-xs.png) center top no-repeat;
   }
 }
 
@@ -56,7 +57,7 @@ body{
 
 .home-title{  
   position: absolute;  
-  bottom: 7vh;
+  bottom: 10vh;
   line-height: 100%; 
   z-index: 2;
   font-size: get-fzvw(120px);

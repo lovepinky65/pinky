@@ -2482,12 +2482,12 @@ body {
   background: #ffffff;
 }
 body ::selection {
-  background: #F8DA0B;
-  color: #fff;
+  background: #004C99;
+  color: #F8DA0B;
 }
 body ::-moz-selection {
-  background: #F8DA0B;
-  color: #fff;
+  background: #004C99;
+  color: #F8DA0B;
 }
 body img::selection {
   background: transparent;
@@ -2505,60 +2505,6 @@ a {
 }
 a:hover, a:active, a:focus {
   text-decoration: none;
-}
-
-/*消除foucs框線*/
-input:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-textarea:focus,
-button:focus,
-select:focus {
-  transition: border linear .2s,box-shadow linear 1s;
-  -moz-transition: border linear .2s,-moz-box-shadow linear 1s;
-  -webkit-transition: border linear .2s,-webkit-box-shadow linear 1s;
-  outline: none;
-  border-color: #F8DA0B;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  color: #F8DA0B;
-}
-input:focus::-webkit-input-placeholder,
-input[type=text]:focus::-webkit-input-placeholder,
-input[type=password]:focus::-webkit-input-placeholder,
-textarea:focus::-webkit-input-placeholder,
-button:focus::-webkit-input-placeholder,
-select:focus::-webkit-input-placeholder {
-  /* WebKit browsers */
-  color: #F8DA0B;
-}
-input:focus:-moz-placeholder,
-input[type=text]:focus:-moz-placeholder,
-input[type=password]:focus:-moz-placeholder,
-textarea:focus:-moz-placeholder,
-button:focus:-moz-placeholder,
-select:focus:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #F8DA0B;
-}
-input:focus::-moz-placeholder,
-input[type=text]:focus::-moz-placeholder,
-input[type=password]:focus::-moz-placeholder,
-textarea:focus::-moz-placeholder,
-button:focus::-moz-placeholder,
-select:focus::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #F8DA0B;
-}
-input:focus:-ms-input-placeholder,
-input[type=text]:focus:-ms-input-placeholder,
-input[type=password]:focus:-ms-input-placeholder,
-textarea:focus:-ms-input-placeholder,
-button:focus:-ms-input-placeholder,
-select:focus:-ms-input-placeholder {
-  /* Internet Explorer 10+ */
-  color: #F8DA0B;
 }
 
 .title, .subtitle, .home-title span, .home-titlesmall, .home-bgText, .myworkImg, .lightbox-link {
@@ -2874,6 +2820,7 @@ body {
 @media (max-width: 768px) {
   body {
     background-position: center 60px;
+    background: url(../images/layout/body-bg-xs.png) center top no-repeat;
   }
 }
 
@@ -2928,7 +2875,7 @@ body {
 
 .home-title {
   position: absolute;
-  bottom: 7vh;
+  bottom: 10vh;
   line-height: 100%;
   z-index: 2;
   font-size: 7.5vw;
@@ -3080,20 +3027,38 @@ body {
   -ms-transform-origin: top center;
   transform-origin: top center;
 }
-@media (max-width: 992px) {
-  .about-img {
-    width: 80%;
-    float: right;
-    max-width: none;
-  }
-}
-.about-img img {
+.about-img .about-xl {
   transform: translateY(-70px);
   -webkit-transform: translateY(-70px);
   -moz-transform: translateY(-70px);
   -o-transform: translateY(-70px);
   -ms-transform: translateY(-70px);
-  width: 100%;
+  max-width: 100%;
+}
+.about-img .about-xs {
+  display: none;
+}
+@media (max-width: 992px) {
+  .about-img {
+    width: 80%;
+    float: right;
+    max-width: none;
+    text-align: right;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .about-img {
+    width: 100%;
+  }
+  .about-img .about-xl {
+    display: none;
+  }
+  .about-img .about-xs {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
 .about-img:hover, .about-img:active, .about-img:focus, .about-img.active {
   -webkit-animation: aboutImg 1s 1 ease;
@@ -3715,11 +3680,6 @@ body {
     margin: 20px -20px 0 -20px;
   }
 }
-.mywork-group:hover .myworkImg, .mywork-group:active .myworkImg, .mywork-group:focus .myworkImg, .mywork-group.active .myworkImg {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
-}
 
 .mywork-list {
   display: block;
@@ -3767,9 +3727,6 @@ body {
 }
 
 .mywork-group .myworkImg:hover, .mywork-group .myworkImg:active, .mywork-group .myworkImg:focus, .mywork-group .myworkImg.active {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
   box-shadow: #666 5px 5px 10px;
 }
 

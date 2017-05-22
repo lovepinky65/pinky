@@ -33,14 +33,30 @@
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
   transform-origin: top center;
+  .about-xl{
+    @include transformY(-70px);
+    max-width: 100%;
+  }
+  .about-xs{
+    display: none;
+  }
   @include breakpoint($max-lg){
     width: 80%;
     float: right;
-    max-width: none;
+    max-width: none; 
+    text-align: right;
+    padding-top: 20px;
   }
-  img{
-    @include transformY(-70px);
+  @include breakpoint($max-md){
     width: 100%;
+    .about-xl{
+      display: none;
+    }
+    .about-xs{
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
   }
   @include aHFA{
     -webkit-animation: aboutImg 1s 1 ease;

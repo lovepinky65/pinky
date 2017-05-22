@@ -15,12 +15,12 @@ body{
   // min-width: $max-width;
   background: $color-bg;//引用 settings/color.scss 
   ::selection {
-	background: $color-main;
-	color: #fff;
+	background: #004C99;
+	color: $color-main;
 	}
 	::-moz-selection {
-	background: $color-main;
-	color: #fff;
+	background: #004C99;
+	color: $color-main;
 	}
 	img::selection {
 	background: transparent;
@@ -41,36 +41,6 @@ a{
   }
 }
 
-
-/*消除foucs框線*/
-input:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-textarea:focus,
-button:focus,
-select:focus{ 
-    transition:border linear .2s,box-shadow linear 1s;
-    -moz-transition:border linear .2s,-moz-box-shadow linear 1s;
-    -webkit-transition:border linear .2s,-webkit-box-shadow linear 1s;
-    outline:none;
-    border-color: $color-main;//引用 settings/color.scss 
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    color: $color-main;
-    &::-webkit-input-placeholder { /* WebKit browsers */
-        color: $color-main;
-    }
-    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-        color: $color-main;
-    }
-    &::-moz-placeholder { /* Mozilla Firefox 19+ */
-        color: $color-main;
-    }
-    &:-ms-input-placeholder { /* Internet Explorer 10+ */
-        color: $color-main;
-    }
-}
 
 
 %transition03{

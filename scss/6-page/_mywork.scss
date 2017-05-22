@@ -26,13 +26,6 @@
   @include breakpoint($xl){
     margin: 20px -20px 0 -20px; 
   } 
-  @include aHFA{
-    .myworkImg{
-      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-      opacity: 0.6;
-    }
-  }
 }
 .mywork-list{
   display: block;
@@ -69,9 +62,6 @@
 }
 .mywork-group .myworkImg{
   @include aHFA{
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
     @include bs(#666,5px,5px,10px);
   }
 }
