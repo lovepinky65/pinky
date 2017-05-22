@@ -139,7 +139,7 @@ to { -o-transform: translate(0); }
   line-height: 100%;
   @extend %transition03;
   @include breakpoint($max-xs){
-    font-size: (48px/$fz-base) * 1rem;
+    font-size: (44px/$fz-base) * 1rem;
   }
   @include breakpoint($xs){
     font-size: (65px/$fz-base) * 1rem;
