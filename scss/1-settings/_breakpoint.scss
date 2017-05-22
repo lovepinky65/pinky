@@ -1,0 +1,18 @@
+//最小範圍變數
+$xs: 481px;//手機版
+$sm: 577px;//平板
+$md: 769px;//小螢幕
+$lg: 993px;//大螢幕
+$xl: 1201px;
+// 最大範圍變數
+$max-xs: max-width ($xs - 1);
+$max-sm: max-width ($sm - 1);
+$max-md: max-width ($md - 1);
+$max-lg: max-width ($lg - 1);
+$max-xl: max-width ($xl - 1);
+// 斷點的wrap最大寬度
+$wrap-sm: 510px;
+$wrap-md: 690px;
+$wrap-lg: 930px;
+$wrap-xl: 1110px;
+

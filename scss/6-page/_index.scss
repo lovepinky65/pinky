@@ -1,0 +1,145 @@
+body{
+  background: url(../images/layout/body-bg.png) center top no-repeat;
+  @include bgcover;
+  @include bgfixed;
+  @include breakpoint($max-md){
+    background-position: center 60px; 
+  }
+}
+
+.home-bg{
+  width: 0;
+  height: 0;   
+  @include breakpoint($max-md){
+    border-left: 100vw solid transparent;
+    border-bottom: 50vh solid $color-primary;
+    position: absolute;
+    top: 50vh;
+    left: 0;   
+  }
+  @include breakpoint($md){
+    border-left: 100vw solid transparent;
+    border-bottom: 80vh solid $color-primary;
+    padding-top: 20vh;
+  }
+  @include breakpoint($xl){
+    border-left: 100vw solid transparent;
+    border-bottom: 120vh solid $color-primary;
+    padding-top: 0;
+  }
+  @include breakpoint(1600px){
+    border-bottom: 145vh solid $color-primary;
+  }
+}
+
+
+.home{
+  width: 100%;
+  height:100vh;
+  position: relative;  
+  color: $color-main;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  @include breakpoint($md){
+    position: absolute;
+    top: 0;
+    left: 0;  
+  }
+}
+
+
+@function get-fzvw($target) {
+  $vw-context: (1600px * .01);
+  @return ($target/$vw-context) * 1vw;
+}
+
+
+.home-title{  
+  position: absolute;  
+  bottom: 7vh;
+  line-height: 100%; 
+  z-index: 2;
+  font-size: get-fzvw(120px);
+  @include breakpoint(1600px){
+   font-size: (120px/$fz-base) * 1rem;
+  }
+  @include breakpoint($md){
+    right: 5vw;
+  }
+  @include breakpoint($max-lg){
+   font-size: (80px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-md){
+    padding: 0 60px;
+    bottom: 7vh;
+    font-size: (86px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-sm){
+    padding: 0 20px;
+   font-size: (80px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-xs){
+   font-size: (70px/$fz-base) * 1rem;
+  }
+  span{
+    letter-spacing: -0.3rem;
+    line-height: 100%;  
+    display: block;
+    @extend %transition03;
+  }
+  
+}
+
+
+
+.home-titlesmall{  
+ display: block;
+ line-height: 100%;
+ font-size: get-fzvw(100px);
+ @extend %transition03;
+  @include breakpoint(1600px){
+   font-size: (100px/$fz-base) * 1rem; 
+  }
+  @include breakpoint($max-lg){
+   font-size: (65px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-md){
+    font-size: (75px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-sm){
+   font-size: (65px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-xs){
+   font-size: (55px/$fz-base) * 1rem;
+  }
+}
+
+.home-bgText{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  line-height: 100%; 
+  z-index: 1;
+  color: #ffffff;
+  text-align: right;
+  font-style: italic;
+  opacity: 0.1;
+  @extend %transition03;
+  -webkit-animation: homecssAnimation 0.7s 1 ease;
+  -moz-animation: homecssAnimation 0.7s 1 ease;
+  -o-animation: homecssAnimation 0.7s 1 ease;
+  font-size: get-fzvw(220px);
+  // @include breakpoint(1600px){
+  //  font-size: (295px/$fz-base) * 1rem; 
+  // }
+  @include breakpoint(max-width 1600px){
+   // font-size: (45px/$fz-base) * 1rem;
+   display: none;
+  }
+  span{
+    display: block;
+    line-height: 70%; 
+  }
+}
+
+

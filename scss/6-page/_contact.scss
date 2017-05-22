@@ -1,0 +1,65 @@
+.contact{
+  background: $color-primary;
+  padding: 70px 0;
+  @include breakpoint($max-md){
+    padding-top: 40px;
+  }
+}
+.contact-C{
+  text-align: center;
+  line-height: 150%;
+  padding-bottom: 30px;
+  @include breakpoint($sm){ padding-bottom: 40px; }
+  @include breakpoint($lg){ padding-bottom: 50px; }
+  @include breakpoint($xl){ padding-bottom: 80px; }
+  a{
+    display: block;
+    padding-top: 20px;
+    color: #F0F0E0;
+    @include aHFA{
+      color: #ffffff;
+    }
+  }
+}
+.contact-group{
+  font-size: 0;
+  text-align: center;  
+}
+.contact-link{
+  display: inline-block;
+  width: 185px;
+  margin: 0 20px 15px 20px;
+  @include breakpoint($max-lg){
+    margin: 0 15px 15px 15px;
+  }
+  @include breakpoint($max-md){ 
+    width: 130px;
+    margin: 0 12px 15px 12px;
+  }
+  a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: url(../images/layout/contactimg.png) no-repeat;
+    background-size: cover;
+    @include breakpoint($max-md){
+      height: 35px;
+    } 
+  }
+  &:nth-child(1){
+    a{ background-position: left center; }
+  }
+  &:nth-child(2){
+    a{ background-position: center; }
+  }
+  &:nth-child(3){
+    a{ background-position: right center; }
+  }
+}
+.copyright{
+  background: #001B35;
+  text-align: center;
+  color: #F0F0DF;
+  font-size: (12px/$fz-base) * 1rem;  
+  padding: 10px 0;
+}

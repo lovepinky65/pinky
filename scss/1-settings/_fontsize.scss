@@ -1,0 +1,70 @@
+//整個網站預設字型大小
+$fz-base:          16px;
+
+// 文字樣式
+// $fz-large:         #{16/$fz-base}rem; 
+$fz-small:         (15px/$fz-base) * 1rem; 
+$fz-min:         (13px/$fz-base) * 1rem; 
+$fz-min2:         (12px/$fz-base) * 1rem; 
+//title樣式
+$fz-h2: (48px/$fz-base) * 1rem;
+$fz-h2: (48px/$fz-base) * 1rem;
+$fz-h3: (36px/$fz-base) * 1rem;
+$fz-h4: (26px/$fz-base) * 1rem;
+$fz-h5: (22px/$fz-base) * 1rem;
+$fz-h6: (18px/$fz-base) * 1rem;
+
+$fz-default:          (16px/$fz-base) * 1rem;
+
+
+
+//手機版樣式，可有可無
+// 文字樣式
+// $fzxs-large:         #{15/$fz-base}rem(13px/$fz-base) * 1rem; 
+$fzxs-small:         (13px/$fz-base) * 1rem; 
+$fzxs-min:         (12px/$fz-base) * 1rem; 
+
+//title樣式
+$fzxs-h2: (44px/$fz-base) * 1rem;
+$fzxs-h3: (30px/$fz-base) * 1rem;
+$fzxs-h4: (22px/$fz-base) * 1rem;
+$fzxs-h5: (18px/$fz-base) * 1rem;
+$fzxs-h6: (16px/$fz-base) * 1rem;
+
+$fzxs-default:          (15px/$fz-base) * 1rem;
+
+
+
+
+
+// $breakpoint-max: $xl;//最大寬度
+// $breakpoint-min: $md;//最小寬度
+// $wide-screen-max: "(min-width: #{$breakpoint-max})"; 
+// $wide-screen-min: "(max-width: #{$breakpoint-min})"; 
+
+// // Function
+// @function get-fzvw($target) {
+//   $vw-context: ($breakpoint-max * .01);
+//   @return ($target/$vw-context) * 1vw;
+// }
+
+// // Mixin
+// @mixin fzvw($size,$size-xs) {
+//   font-size: get-fzvw($size);
+//   // 字體最大尺寸
+//   @media #{$wide-screen-max} {
+//     font-size: ($size/$fz-base) * 1rem;
+//   }
+//   // 字體最小尺寸
+//   @media #{$wide-screen-min} {
+//     font-size:  ($size-xs/$fz-base) * 1rem;
+//   }
+// }
+
+// /********************使用寫法********************/
+
+// .fz-h1 {
+//   font-size: (60px/$fz-base) * 1rem;
+//   @include fzvw(60px,48px);
+// }
+

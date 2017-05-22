@@ -1,0 +1,29 @@
+// 網站配色
+$color-main	: #F8DA0B;//主色系1
+$color-mainL	: #AFE146;//主色系1-比較淺色
+// $color-mainD	: darken($color-main, 6%);//主色系1-比較深色
+$color-primary: #002040;//主色系2
+// $color-primaryL: #0053C4;//主色系2
+
+
+$color-title: #222222;//標題樣式
+$color-c: #333333;//內文顏色
+$color-cL: #666666;//內文顏色-比較淺色
+$color-cL2: #999999;//內文顏色-比較淺色
+$color-W: #ffffff;//白色
+$color-WL: #f0f0f0;//淺白色
+$color-K: #000000;//黑色
+
+
+$color-input: #B79D73;//輸入框框線顏色
+
+// //背景顏色
+$color-bg: #ffffff;
+$color-WL: #f0f0f0;//比較淺色
+$color-bgD: darken($color-bg, 3%);//比較深色
+
+
+
+
+//lighten(red, 50%) 增亮50%
+//darken(blue, 50%) 變暗50%

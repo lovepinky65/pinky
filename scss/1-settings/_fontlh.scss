@@ -1,0 +1,21 @@
+$lh-xs:         120%; 
+$lh-sm:         150%; 
+$lh-md:         170%; 
+$lh-lg:         180%; 
+$lh-xl:         200%;
+
+.lh-xs{
+	line-height: $lh-xs;
+}
+.lh-sm{
+	line-height: $lh-sm;
+}
+.lh-md{
+	line-height: $lh-md;
+}
+.lh-lg{
+	line-height: $lh-lg;
+}
+.lh-xl{
+	line-height: $lh-xl;
+}

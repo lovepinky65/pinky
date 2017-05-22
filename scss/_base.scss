@@ -1,0 +1,213 @@
+*,
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      line-height: $lh-sm;
+}
+body{
+  /*字體分別是Linux系統的文泉驛正黑，Mac的蘋方體，微软雅黑,微軟正黑體，英文，都沒有執行的字體*/
+  font-family:  "WenQuanYi Zen Hei", "PingFang","Microsoft JhengHei","Microsoft YaHei",Arial,sans-serif;
+  font-size: 16px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  // min-width: $max-width;
+  background: $color-bg;//引用 settings/color.scss 
+  ::selection {
+	background: $color-main;
+	color: #fff;
+	}
+	::-moz-selection {
+	background: $color-main;
+	color: #fff;
+	}
+	img::selection {
+	background: transparent;
+	}
+	img::-moz-selection {
+	background: transparent;
+	}
+  &.show{
+    overflow: hidden;
+  }
+}
+
+/*a連結設定*/
+a{
+  text-decoration: none;
+  &:hover,&:active,&:focus{
+  text-decoration: none;
+  }
+}
+
+
+/*消除foucs框線*/
+input:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus,
+button:focus,
+select:focus{ 
+    transition:border linear .2s,box-shadow linear 1s;
+    -moz-transition:border linear .2s,-moz-box-shadow linear 1s;
+    -webkit-transition:border linear .2s,-webkit-box-shadow linear 1s;
+    outline:none;
+    border-color: $color-main;//引用 settings/color.scss 
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: $color-main;
+    &::-webkit-input-placeholder { /* WebKit browsers */
+        color: $color-main;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: $color-main;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: $color-main;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: $color-main;
+    }
+}
+
+
+%transition03{
+  @include transition(0.3s);
+}
+%transition05{
+  @include transition(0.5s);
+}
+
+
+
+
+.wrap {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .wrap {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .wrap {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .wrap {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrap {
+    width: 1140px;
+  }
+}
+
+.wrap-small{
+  max-width: 800px; 
+  margin: 0 auto;
+}
+.wrap-xs{
+  max-width: 640px; 
+  margin: 0 auto;
+}
+
+
+.clear {
+  clear:both;
+}
+
+.clearfix:after{
+  display: block;
+  content: ".";
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.bgcssAnimation{
+  -webkit-animation: bgcssAnimation 0.7s 1 ease;
+  -moz-animation: bgcssAnimation 0.7s 1 ease;
+  -o-animation: bgcssAnimation 0.7s 1 ease;
+}
+@-webkit-keyframes bgcssAnimation {
+from { -webkit-transform: translate(100%,0); }
+to { -webkit-transform: translate(0); }
+}
+@-moz-keyframes bgcssAnimation {
+from { -moz-transform: translate(100%,0); }
+to { -moz-transform: translate(0); }
+}
+@-o-keyframes bgcssAnimation {
+from { -o-transform: translate(100%,0); }
+to { -o-transform: translate(0); }
+}
+
+
+.title{
+  color: #F8DA0B;
+  font-size: (100px/$fz-base) * 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  padding-bottom: 35px;
+  text-align: center;  
+  line-height: 100%;
+  @extend %transition03;
+  @include breakpoint($max-xs){
+    font-size: (53px/$fz-base) * 1rem;
+  }
+  @include breakpoint($xs){
+    font-size: (65px/$fz-base) * 1rem;
+  }
+  @include breakpoint($sm){
+    font-size: (70px/$fz-base) * 1rem;
+  }
+  @include breakpoint($sm){
+    font-size: (80px/$fz-base) * 1rem;
+  }
+  @include breakpoint($xl){
+    font-size: (100px/$fz-base) * 1rem;
+  }
+}
+.subtitle{
+  color: #F8DA0B;
+  font-size: (100px/$fz-base) * 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  padding-bottom: 20px;
+  @extend %transition03;
+  @include breakpoint($max-sm){
+    font-size: (40px/$fz-base) * 1rem;
+  }
+  @include breakpoint($sm){
+    font-size: (40px/$fz-base) * 1rem;
+  }
+  @include breakpoint($xl){
+    font-size: (50px/$fz-base) * 1rem;
+  }
+}
+
+.content{
+  color: #F0F0E1;
+  font-size: (18px/$fz-base) * 1rem;
+  line-height: 150%;
+  @include breakpoint($max-sm){
+    font-size: (16px/$fz-base) * 1rem;
+  }
+}

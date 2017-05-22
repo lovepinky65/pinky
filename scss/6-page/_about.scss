@@ -1,0 +1,355 @@
+.about{
+  background: $color-primary;
+}
+.autobiography{
+  padding-top: 12vh;
+  padding-bottom: 20vh;
+  @include breakpoint($lg){
+    padding-top: 60px;
+  }
+  @include breakpoint($xl){
+    padding-top: 0;
+  }
+  @include breakpoint(1600px){
+    @include transformY(-200px);
+    padding-bottom: 0;
+  }
+}
+.about-title{
+  @include breakpoint($lg){
+    text-align: left;
+  }
+}
+.autobiography-C{
+  width: 55%;
+  float: left;
+  @include breakpoint($max-lg){
+    width: 100%;
+  }
+}
+.about-img{
+  max-width: 45%;
+  float: left;  
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+  @include breakpoint($max-lg){
+    width: 80%;
+    float: right;
+    max-width: none;
+  }
+  img{
+    @include transformY(-70px);
+    width: 100%;
+  }
+  @include aHFA{
+    -webkit-animation: aboutImg 1s 1 ease;
+    animation: aboutImg 1s 1 ease;
+  }
+}
+@-webkit-keyframes aboutImg {
+  20% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes aboutImg {
+  20% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+
+.experience{
+  width: 100%;
+  float: right;
+  margin-top: 30px;
+  @include breakpoint($xl){
+    width: 70%;
+  }
+}
+.experience-group{
+  border-left: 2px solid $color-main;
+  margin-bottom: 37px;
+}
+.date{
+  font-size: (20px/$fz-base) * 1rem;
+  color: #ffffff;    
+  float: left;
+  width: 100%;
+  @include breakpoint($max-sm){
+    font-size: (16px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-lg){
+    padding-left: 20px;
+    padding-bottom: 5px;
+    line-height: 100%;
+  }
+  @include breakpoint($lg){
+    width: 18%;
+    text-align: center;
+  }
+  @include breakpoint($xl){
+    width: 22%;
+  }
+  li{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  b{
+    font-weight: bold;
+    padding: 0 3px;
+  }
+  span{
+    @include breakpoint($max-lg){
+      &:nth-child(2){
+        float: left;
+        &:after{
+          content: "年";
+        }
+      }
+    }
+    @include breakpoint($lg){
+      display: block;    
+    }
+  }
+}
+.experience-C{
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+  @include breakpoint($lg){
+    width: 78%;
+  }
+}
+.experience-title{
+  color: $color-main;
+  font-size: (22px/$fz-base) * 1rem;
+  padding-bottom: 3px;
+  @include breakpoint($max-sm){
+    span{
+      display: block;
+    }
+  }
+  @include breakpoint($sm){
+    span+span{
+      &:before{
+        content: "-";
+        padding: 0 3px;
+      }
+    }
+  }
+}
+.experience-info{
+  color: #F0F0E1;
+  font-size: (16px/$fz-base) * 1rem;
+}
+
+
+.expertise{
+  position: relative;
+  background: #F4F4F4;
+}
+.expertise-bg{
+  width: 0;
+  height: 0;   
+  border-right: 100vw solid transparent;
+  border-bottom: 20vh solid #F4F4F4;
+  top: -20vh;
+  left: 0;
+  position: absolute;
+}
+.expertise-title{
+  color: #004C99;
+}
+.expertise-group{
+  margin: 20px -20px 0 -20px;
+  padding-bottom: 90px;
+  font-size: 0;
+  text-align: center;
+  @include breakpoint($max-md){
+    padding-bottom: 40px;
+  }  
+  @include breakpoint($max-xs){
+    margin: 20px -7px 0 -7px;
+  }
+  @include breakpoint($xs $max-md){
+    margin: 20px -10px 0 -10px;
+  }
+  @include breakpoint($md $max-lg){
+    margin: 20px -15px 0 -15px;
+  }
+}
+.expertise-list{  
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 25px;
+  @include breakpoint($max-xs){
+    &:nth-child(3n+1){ clear: both; }
+    padding: 0 7px;
+    width: 115px;
+  }
+  @include breakpoint($xs $max-md){
+    width: 33.333333333%;
+    padding: 0 10px;
+    &:nth-child(3n+1){ clear: both; }
+  }
+  @include breakpoint($md $max-lg){
+    width: 20%;
+    padding: 0 15px;
+    &:nth-child(5n+1){ clear: both; }
+  }
+  @include breakpoint($lg $max-xl){
+    width: 16.666666%;
+    &:nth-child(6n+1){ clear: both; }
+  }
+  @include breakpoint($xl){
+    width: 14.2857%;
+    &:nth-child(7n+1){ clear: both; }
+  }
+}
+
+$minNth: 0;
+$maxNth: 15;
+
+.expertise-icon{
+  display: block;
+  width: 122px;
+  height: 122px;
+  margin: 0 auto;
+  background: url(../images/about/icon.svg) 0 0 no-repeat;
+  background-size: cover;
+  @include breakpoint($max-xs){
+    width: 98px;
+    height: 98px;  
+    $widthxl: 98;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }  
+  }
+  @include breakpoint($xs){
+    width: 130px;
+    height: 130px; 
+    $widthxl: 130;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }   
+  }
+  @include breakpoint($sm){
+    width: 120px;
+    height: 120px;  
+    $widthxl: 120;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }  
+  }
+  @include breakpoint($md){
+    width: 112px;
+    height: 112px;  
+    $widthxl: 112;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }  
+  }
+  @include breakpoint($lg){
+    width: 119px;
+    height: 119px; 
+    $widthxl: 119;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }
+  }
+  @include breakpoint($xl){
+    width: 122px;
+    height: 122px;      
+    $widthxl: 122;
+    @while $minNth < $maxNth {
+      &[data-val="#{$minNth}"]{
+        background-position: 0 #{-$minNth*$widthxl}px;
+      }
+      $minNth: $minNth + 1;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+.expertise-c{
+  color: #666666;
+  font-size: (18px/$fz-base) * 1rem;
+  padding-top: 7px;  
+  @include breakpoint($max-lg){
+    font-size: (16px/$fz-base) * 1rem;
+  }
+  @include breakpoint($max-sm){
+    font-size: (13px/$fz-base) * 1rem;
+  }
+}

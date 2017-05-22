@@ -1,0 +1,130 @@
+
+// 背景覆蓋樣式
+@mixin bgcover{
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+@mixin bgcontain{
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+@mixin bgfixed{
+  background-attachment: fixed;
+}
+
+//圖片外框圓角
+@mixin radius4s($px){
+    -webkit-border-radius: $px;
+    -moz-border-radius: $px;
+    border-radius: $px;
+}    
+//文字陰影
+@mixin ts($color,$x,$y,$px){
+    text-shadow:$color $x $y $px;
+}
+    
+//圖片陰影
+@mixin bs($color,$x,$y,$px){
+    box-shadow:$color $x $y $px;
+}
+
+
+// 文字超過出現點點點
+@mixin textflowell{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space:nowrap;
+}
+// 取消文字超過出現點點點
+@mixin textflowclip{
+    overflow: visible;
+    text-overflow: clip;
+    white-space:normal;
+}
+
+@mixin borderbox{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// 位移
+@mixin transformX($val){
+  transform: translateX($val);
+  -webkit-transform: translateX($val);
+  -moz-transform: translateX($val);
+  -o-transform: translateX($val);
+  -ms-transform: translateX($val);
+}
+
+@mixin transformY($val){
+  transform: translateY($val);
+  -webkit-transform: translateY($val);
+  -moz-transform: translateY($val);
+  -o-transform: translateY($val);
+  -ms-transform: translateY($val);
+}
+
+@mixin transformXY($valX,$valY){
+  transform: translate($valX,$valY);
+  -webkit-transform: translate($valX,$valY);
+  -moz-transform: translate($valX,$valY);
+  -o-transform: translate($valX,$valY);
+  -ms-transform: translate($valX,$valY);
+}
+
+// 滑過
+@mixin aHFA{
+  &:hover, &:active, &:focus, &.active{
+    @content
+  }
+}
+
+// 漸變
+@mixin transition($s){
+-webkit-transition:All $s linear;
+  -moz-transition:All $s linear;
+  -o-transition:All $s linear;
+  transition:All $s linear;
+}
+
+// 清除select下拉樣式
+@mixin selectAppearance{
+  appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+  &::-ms-expand { display: none; }
+}
+
+//自訂滾輪樣式
+@mixin scrollstyle($W,$Bgcolor,$borderC,$BgTcolor,$BgHcolor){
+  &::-webkit-scrollbar {
+    width: $W;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $Bgcolor;
+    border-left: 1px solid $borderC;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $BgTcolor;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: $BgHcolor;
+  }
+// http://blog.rx836.tw/blog/css-styling-scrollbars/
+}
