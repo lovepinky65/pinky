@@ -23,6 +23,18 @@
 		<![endif]-->
 	</head>
 	<body id="home">
+		<!-- loading -->
+		<div class="container">
+			<div class="loading">
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
+				<div class="ball"></div>
+			</div>
+		</div>
 		<!-- header -->
 		<header class="header">
 			<a href="index.html" class="logo">PINKY WORK</a>
@@ -298,6 +310,9 @@
 		<script type="text/javascript">
 			new WOW().init();
 			$(function() {
+				$(window).load(function(){
+			        $('.container').fadeOut(1000);
+			    });
 				// 選單
 				$(".js-menubtn,.js-menulink").click(function(){
 					$(".js-menu,.js-menubtn").toggleClass("show");
