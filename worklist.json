@@ -1,0 +1,415 @@
+{
+  "data": [
+    {
+      "id": 38,
+      "title": "webVR_A-Frame",
+      "imageUrl": "images/mywork/webVR_Frame.jpg",
+      "imageXl": "images/mywork/xl/webVR_Frame.jpg",
+      "from": "自我學習",
+      "technology": "自學研究webVR套件A-Frame",
+      "link": "https://lovepinky65.github.io/webVR_A-Frame/index5.html",
+      "open": true
+    },
+    {
+      "id": 37,
+      "title": "自我作品",
+      "imageUrl": "images/mywork/20181220_web.jpg",
+      "imageXl": "images/mywork/xl/20181220_web.jpg",
+      "from": "自我學習",
+      "technology": "網頁切版-自我作品",
+      "link": "https://lovepinky65.github.io/20181220_web/",
+      "open": true
+    },
+    {
+      "id": 36,
+      "title": "2019元旦AE特效設計製作",
+      "imageUrl": "images/mywork/newyear.jpg",
+      "imageXl": "images/mywork/xl/newyear.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-AEx網頁 特效設計&製作",
+      "link": "https://lovepinky65.github.io/newyear/",
+      "open": true
+    },
+    {
+      "id": 35,
+      "title": "餐廳模組",
+      "imageUrl": "images/mywork/woodalley.jpg",
+      "imageXl": "images/mywork/xl/woodalley.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-部分內頁(RWD)、前端特效設計&製作",
+      "link": "http://demo.artie.com.tw/template/woodalley/beta/product.php",
+      "open": true
+    },
+    {
+      "id": 34,
+      "title": "門前隱味燉煮牛肉",
+      "imageUrl": "images/mywork/wumamii.jpg",
+      "imageXl": "images/mywork/xl/wumamii.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-首頁、部分內頁(RWD)、前端特效設計&製作",
+      "link": "https://www.wumamii.com.tw/cometogether/",
+      "open": true
+    },
+    {
+      "id": 33,
+      "title": "澎湖極限運動-GO STAR",
+      "imageUrl": "images/mywork/gostarpark.jpg",
+      "imageXl": "images/mywork/xl/gostarpark.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-首頁、部分內頁(RWD)、前端特效設計&製作",
+      "link": "https://www.gostarpark.com.tw/",
+      "open": true
+    },
+    {
+      "id": 32,
+      "title": "FACHA法裁客製西服",
+      "imageUrl": "images/mywork/facha.jpg",
+      "imageXl": "images/mywork/xl/facha.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-(RWD)、前端特效設計&製作",
+      "link": "http://www.facha.com.tw/",
+      "open": true
+    },
+    {
+      "id": 31,
+      "title": "台塑企業",
+      "imageUrl": "images/mywork/fpg.jpg",
+      "imageXl": "images/mywork/xl/fpg.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "部分網頁切版(RWD)、前端特效設計&製作",
+      "link": "https://www.fpg.com.tw/tw",
+      "open": true
+    },
+    {
+      "id": 30,
+      "title": "REJU",
+      "imageUrl": "images/mywork/reju.jpg",
+      "imageXl": "images/mywork/xl/reju.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://reju.com.tw/",
+      "open": true
+    },
+    {
+      "id": 29,
+      "title": "ROOHSING 如興",
+      "imageUrl": "images/mywork/roohsing.jpg",
+      "imageXl": "images/mywork/xl/roohsing.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-部分內頁(RWD)、前端特效製作",
+      "link": "http://www.roohsing.com.tw/zh-tw/",
+      "open": true
+    },
+    {
+      "id": 28,
+      "title": "超級瑪卡龍",
+      "imageUrl": "images/mywork/chaujimakalung.jpg",
+      "imageXl": "images/mywork/xl/chaujimakalung.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-(RWD)",
+      "link": "https://www.chaujimakalung.com/",
+      "open": true
+    },
+    {
+      "id": 27,
+      "title": "BBIN EXPO BOOKING",
+      "imageUrl": "images/mywork/bbinevent.jpg",
+      "imageXl": "images/mywork/xl/bbinevent.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "https://www.bbinevent.com/",
+      "open": true
+    },
+    {
+      "id": 26,
+      "title": "BLUEPRINT 藍本",
+      "imageUrl": "images/mywork/blueprint.jpg",
+      "imageXl": "images/mywork/xl/blueprint.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-首頁(RWD)、前端特效製作",
+      "link": "http://www.blueprint.com.tw/",
+      "open": true
+    },
+    {
+      "id": 25,
+      "title": "基勝集團",
+      "imageUrl": "images/mywork/keysheen.jpg",
+      "imageXl": "images/mywork/xl/keysheen.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.keysheen.com/",
+      "open": true
+    },
+    {
+      "id": 24,
+      "title": "Hitachi",
+      "imageUrl": "images/mywork/hitachi.jpg",
+      "imageXl": "images/mywork/xl/hitachi.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.hitachi-chem-en.com/",
+      "open": true
+    },
+    {
+      "id": 23,
+      "title": "後山信馨生活事業有限公司",
+      "imageUrl": "images/mywork/taitunghsinhsin.jpg",
+      "imageXl": "images/mywork/xl/taitunghsinhsin.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.taitunghsinhsin.com.tw/",
+      "open": true
+    },
+    {
+      "id": 22,
+      "title": "TAPERPRO",
+      "imageUrl": "images/mywork/taperpro.jpg",
+      "imageXl": "images/mywork/xl/taperpro.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作、專案需求確認",
+      "link": "http://www.taperpro.com.tw",
+      "open": true
+    },
+    {
+      "id": 21,
+      "title": "BTM 尊澳商旅服務有限公司",
+      "imageUrl": "images/mywork/btmcard.jpg",
+      "imageXl": "images/mywork/xl/btmcard.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-全站(RWD)、前端特效設計&製作",
+      "link": "http://www.btmcard.com/cn",
+      "open": true
+    },
+    {
+      "id": 20,
+      "title": "友信美骨立MAKOplasty",
+      "imageUrl": "images/mywork/makoplasty.jpg",
+      "imageXl": "images/mywork/xl/makoplasty.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-(手機版)",
+      "link": "http://www.makoplasty.com.tw/mobile/",
+      "open": true
+    },
+    {
+      "id": 19,
+      "title": "亞惿網頁設計(隱策)",
+      "imageUrl": "images/mywork/artie.jpg",
+      "imageXl": "images/mywork/xl/artie.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-(RWD)、前端特效設計&製作",
+      "link": "https://www.artie.com.tw/",
+      "open": true
+    },
+    {
+      "id": 18,
+      "title": "ABC澳洲背包客中心",
+      "imageUrl": "images/mywork/abcwithyou.jpg",
+      "imageXl": "images/mywork/xl/abcwithyou.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-部分內頁(RWD)、前端特效製作",
+      "link": "https://www.abcwithyou.com/",
+      "open": true
+    },
+    {
+      "id": 17,
+      "title": "D Racing 改裝車儀錶",
+      "imageUrl": "images/mywork/deporacing.jpg",
+      "imageXl": "images/mywork/xl/deporacing.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版(手機版)、手機版前端特效設計&製作",
+      "link": "http://www.deporacing.com/mobile/",
+      "open": true
+    },
+    {
+      "id": 16,
+      "title": "誼光家事",
+      "imageUrl": "images/mywork/ykhome.jpg",
+      "imageXl": "images/mywork/xl/ykhome.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版-首頁、部分內頁(RWD)、前端特效設計&製作",
+      "link": "http://www.ykhome.com.tw/",
+      "open": true
+    },
+    {
+      "id": 15,
+      "title": "華陽不銹鋼工業股份有限公司",
+      "imageUrl": "images/mywork/hwayang.jpg",
+      "imageXl": "images/mywork/xl/hwayang.jpg",
+      "from": "亞惿網頁設計(隱策)",
+      "technology": "網頁切版(手機、電腦改版)、前端特效設計&製作",
+      "link": "http://www.hwayang.com.tw/",
+      "open": true
+    },
+    {
+      "id": 14,
+      "title": "英屬開曼群島商虹揚發展科技股份有限公司",
+      "imageUrl": "images/mywork/hygroup.jpg",
+      "imageXl": "images/mywork/xl/hygroup.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁設計協助、網頁切版、前端特效設計&製作",
+      "link": "http://www.hygroup.com.tw",
+      "open": true
+    },
+    {
+      "id": 13,
+      "title": "康聯訊科技股份有限公司",
+      "imageUrl": "images/mywork/ctsystem.jpg",
+      "imageXl": "images/mywork/xl/ctsystem.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁設計協助、網頁切版、前端特效設計&製作、教育訓練",
+      "link": "http://ctsystem.com/",
+      "open": true
+    },
+    {
+      "id": 12,
+      "title": "潛裝Divevillage",
+      "imageUrl": "images/mywork/divevillage.jpg",
+      "imageXl": "images/mywork/xl/divevillage.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作、教育訓練",
+      "link": "http://www.divevillage.com.tw/",
+      "open": true
+    },
+    {
+      "id": 11,
+      "title": "Hoppetta",
+      "imageUrl": "images/mywork/hoppetta.jpg",
+      "imageXl": "images/mywork/xl/hoppetta.jpg",
+      "from": "創造力互動多媒體",
+      "technology": "網頁改RWD、風格調整",
+      "link": "https://www.hoppetta.com.tw/",
+      "open": true
+    },
+    {
+      "id": 10,
+      "title": "弈宣廣告",
+      "imageUrl": "images/mywork/yixdesign.jpg",
+      "imageXl": "images/mywork/xl/yixdesign.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.yixdesign.com/",
+      "open": true
+    },
+    {
+      "id": 9,
+      "title": "文創咖啡廳媒合平台",
+      "imageUrl": "images/mywork/imatch.png",
+      "imageXl": "images/mywork/xl/imatch.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://imatch.moc.gov.tw/",
+      "open": true
+    },
+    {
+      "id": 8,
+      "title": "台江軟件園",
+      "imageUrl": "images/mywork/china-tpark.png",
+      "imageXl": "images/mywork/xl/china-tpark.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://china-tpark.com/index.php",
+      "open": true
+    },
+    {
+      "id": 7,
+      "title": "國立歷史博物館-數位文創加值網",
+      "imageUrl": "images/mywork/cm1955.png",
+      "imageXl": "images/mywork/xl/cm1955.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://cm1955.nmh.gov.tw/",
+      "open": true
+    },
+    {
+      "id": 6,
+      "title": "活靈活現教育中心",
+      "imageUrl": "images/mywork/edu.png",
+      "imageXl": "images/mywork/xl/edu.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.edu.darmo-cc.net/",
+      "open": true
+    },
+    {
+      "id": 5,
+      "title": "郎世寧4G創新應用競賽",
+      "imageUrl": "images/mywork/creative.png",
+      "imageXl": "images/mywork/xl/creative.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "javascript:;",
+      "open": true
+    },
+    {
+      "id": 4,
+      "title": "PHAVORRI",
+      "imageUrl": "images/mywork/phavorri.png",
+      "imageXl": "images/mywork/xl/phavorri.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "javascript:;",
+      "open": true
+    },
+    {
+      "id": 3,
+      "title": "共創集智網",
+      "imageUrl": "images/mywork/css.png",
+      "imageXl": "images/mywork/xl/css.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://css.iii.org.tw/",
+      "open": true
+    },
+    {
+      "id": 2,
+      "title": "花向東",
+      "imageUrl": "images/mywork/f520shop.png",
+      "imageXl": "images/mywork/xl/f520shop.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "https://www.f520shop.com",
+      "open": true
+    },
+    {
+      "id": 1,
+      "title": "江蘇益邦置業有限公司",
+      "imageUrl": "images/mywork/jsybzy.png",
+      "imageXl": "images/mywork/xl/jsybzy.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.jsybzy.com/",
+      "open": true
+    },
+    {
+      "id": 0,
+      "title": "臺灣藝術家圖像授權平臺-偷圖劫色",
+      "imageUrl": "images/mywork/taiwanarts.png",
+      "imageXl": "images/mywork/xl/taiwanarts.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://taiwanarts.com.tw/",
+      "open": true
+    },
+    
+    {
+      "id": 201501,
+      "title": "313中高齡網",
+      "imageUrl": "images/mywork/elder313.png",
+      "imageXl": "images/mywork/xl/elder313.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
+      "link": "http://www.313-elder.com.tw/",
+      "open": true
+    },
+    {
+      "id": 201502,
+      "title": "歐渼國際美學有限公司",
+      "imageUrl": "images/mywork/allbeauty.png",
+      "imageXl": "images/mywork/xl/allbeauty.jpg",
+      "from": "弈宣科技開發有限公司",
+      "technology": "網頁設計協助、網頁切版、前端特效設計&製作",
+      "link": "javascript:;",
+      "open": true
+    }
+  ]
+}

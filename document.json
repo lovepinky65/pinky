@@ -1,0 +1,24 @@
+{
+  "data" :[
+    {
+      "id" : 0,
+      "title" : "歐渼國際美學有限公司",
+      "imageUrl" :"images/mywork/allbeauty.png",
+      "imageXl" : "images/mywork/xl/allbeauty.jpg",
+      "from" : "弈宣科技開發有限公司",
+      "technology" : "網頁設計協助、網頁切版、前端特效設計&製作",
+      "link" : "javascript:;",
+      "open" : true
+    },
+    {
+      "id" : 1,
+      "title" : "",
+      "imageUrl" :"images/mywork/.png",
+      "imageXl" : "images/mywork/xl/.jpg",
+      "from" : "",
+      "technology" : "",
+      "link" : "",
+      "open" : true
+    }
+  ]
+}
