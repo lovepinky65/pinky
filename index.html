@@ -283,7 +283,7 @@
 				methods: {
 					getJsonInfo() {//取得worklist資料
 						const vm = this;
-						vm.$http.get('../worklist.json').then(response => {
+						vm.$http.get('worklist.json').then(response => {
 							console.log(response.data.data);
 							vm.worklist= response.data.data;
 						}, response => {
