@@ -270,27 +270,6 @@
 				$(".js-menubtn,.js-menulink").click(function(){
 					$(".js-menu,.js-menubtn").toggleClass("show");
 				});
-				// lightbox
-				// var datatarget = [];
-				// $(".js-lightboxbtn").click(function(event) {
-				// 	var button = $(this);
-				// 	datatarget = [button.data('target'),button.text(),button.data('work'),button.data('form'),button.data('link'),button.data('img')];
-				// 	$(datatarget[0]+",body").toggleClass("show");
-				// 	$(datatarget[0]).find(".lightbox-title").find("span").text(datatarget[1]);					
-				// 	$(datatarget[0]).find(".lightbox-work").find("span").text(datatarget[2]);
-				// 	$(datatarget[0]).find(".lightbox-form").find("span").text(datatarget[3]);
-				// 	$(datatarget[0]).find(".lightbox-link").attr('href', datatarget[4]);
-				// 	$(datatarget[0]).find(".lightbox-img").find("img").attr('src', datatarget[5]);
-
-				// });
-				// $(".lightbox-close,.lightbox-closeC").click(function(event) {
-				// 	$(this).parents(".lightbox").toggleClass("show");
-				// 	$("body").toggleClass("show");
-				// 	$(datatarget[0]).find("span").text("");	
-				// 	$(datatarget[0]).find(".lightbox-link").attr('href', "");
-				// 	$(datatarget[0]).find(".lightbox-img").find("img").attr('src', "");
-				// 	datatarget = [];
-				// });	
 			});
 			var app = new Vue({
 				el: '#app',
@@ -304,7 +283,7 @@
 				methods: {
 					getJsonInfo() {//取得worklist資料
 						const vm = this;
-						vm.$http.get('/worklist.json').then(response => {
+						vm.$http.get('../worklist.json').then(response => {
 							console.log(response.data.data);
 							vm.worklist= response.data.data;
 						}, response => {
