@@ -8,7 +8,7 @@
       "from": "自我學習",
       "technology": "自學研究webVR套件A-Frame",
       "link": "https://lovepinky65.github.io/webVR_A-Frame/index5.html",
-      "open": true
+      "open": false
     },
     {
       "id": 37,
@@ -18,7 +18,7 @@
       "from": "自我學習",
       "technology": "網頁切版-自我作品",
       "link": "https://lovepinky65.github.io/20181220_web/",
-      "open": true
+      "open": false
     },
     {
       "id": 36,
@@ -377,7 +377,7 @@
       "imageXl": "images/mywork/xl/jsybzy.jpg",
       "from": "弈宣科技開發有限公司",
       "technology": "網頁設計、網頁切版(RWD)、前端特效設計&製作",
-      "link": "http://www.jsybzy.com/",
+      "link": "javascript:;",
       "open": true
     },
     {
